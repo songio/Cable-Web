@@ -163,7 +163,7 @@ ul#nav li.current a { color: #fff; }
 /* c. Hero Section
 /* ------------------------------------------------------------------ */
 
-#hero {
+#cable {
    padding-top: 66px;
    background: #23292f url(img/hero-bg.png);
    overflow: hidden;
@@ -174,14 +174,14 @@ ul#nav li.current a { color: #fff; }
 (-webkit-min-device-pixel-ratio: 2),
 (min-resolution: 192dpi) {
 
-	#hero { 
+	#cable { 
 		background: #23292f url(img/hero-bg_@2X.png); 
 		background-size: 200px 200px;
 	}
   
 }
 
-#hero .row { max-width: 1040px; }
+#cable .row { max-width: 1040px; }
 
 /* Hero Text */
 .hero-text {
@@ -209,7 +209,7 @@ ul#nav li.current a { color: #fff; }
 /* Hero Image */
 .hero-image {
    width: 100%;
-   margin: 0 auto 200px;
+   margin: 0 auto 300px;
 }
 .hero-image img {
    vertical-align: bottom;
@@ -217,16 +217,16 @@ ul#nav li.current a { color: #fff; }
 }
 
 /* Hero CTA Buttons */
-#hero .buttons {
+#cable .buttons {
    text-align: center;
    margin: 0 0 18px 0;
 }
-#hero .buttons .button {
+#cable .buttons .button {
    font: 14px/24px 'montserrat-bold', sans-serif;
    text-transform : uppercase;
    letter-spacing: 2px;
 }
-#hero .buttons .trial {
+#cable .buttons .trial {
    background: #f64b39;
    margin-right: 30px;
 
@@ -237,8 +237,8 @@ ul#nav li.current a { color: #fff; }
    -webkit-animation-iteration-count: 3;
       -moz-animation-iteration-count: 3;  
 }
-#hero .buttons .trial:hover { background: #F86A5A; }
-#hero .buttons .learn-more {}
+#cable .buttons .trial:hover { background: #F86A5A; }
+#cable .buttons .learn-more {}
 
 
 /* ------------------------------------------------------------------ */
